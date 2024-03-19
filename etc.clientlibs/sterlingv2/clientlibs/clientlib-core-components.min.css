@@ -1,0 +1,26 @@
+.cmp-tabs__tablist{display:flex;flex-wrap:wrap;padding-left:0;list-style:none}
+.cmp-tabs__tab{box-sizing:border-box;border-bottom:1px solid transparent;padding:.5rem 1rem;cursor:pointer}
+.cmp-tabs__tab--active{border-color:inherit}
+.cmp-tabs__tabpanel{display:none}
+.cmp-tabs__tabpanel--active{display:block}
+.cmp-tabs__tablist{display:flex;flex-wrap:wrap;padding-left:0;list-style:none}
+.cmp-tabs__tab{box-sizing:border-box;border-bottom:1px solid transparent;padding:.5rem 1rem;cursor:pointer}
+.cmp-tabs__tab--active{border-color:inherit}
+.cmp-tabs__tabpanel{display:none}
+.cmp-tabs__tabpanel--active{display:block}
+.cmp-image__image{width:100%}
+.cmp-image__image{width:100%}
+.cmp-accordion{display:block;margin:0;padding:0;padding-left:10px;background-color:#fff}
+.cmp-accordion__item{position:relative}
+.cmp-accordion__header{font:inherit}
+.cmp-accordion__button{position:relative;border:0;border-bottom:.0625rem solid;padding:.5rem 0;background:0;color:inherit;font:inherit;cursor:pointer;outline:inherit}
+.cmp-accordion__button--expanded .cmp-accordion__icon:before{content:'expand_more'}
+.cmp-accordion__button--disabled{cursor:default}
+.cmp-accordion__icon:before{content:'chevron_right';position:absolute;top:.625rem;right:.5rem;font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:1.125rem;line-height:1;text-transform:none;letter-spacing:normal;word-wrap:normal;white-space:nowrap;direction:ltr;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;font-feature-settings:'liga'}
+.cmp-accordion__panel{padding:.75rem 0}
+.cmp-accordion__button{border-color:#e1e1e1;color:#737373}
+.cmp-accordion__button--expanded{color:#232323}
+.cmp-accordion__panel--expanded{margin-left:0 !important}
+.cmp-accordion__button:hover{color:#232323}
+.accordion{margin-bottom:10px}
+@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:local('Material Icons'),local('MaterialIcons-Regular'),url('clientlib-all/resources/fonts/material-icons/material-icons.woff2') format('woff2'),url('clientlib-all/resources/fonts/material-icons/material-icons.woff') format('woff'),url('clientlib-all/resources/fonts/material-icons/material-icons.ttf') format('truetype')}
